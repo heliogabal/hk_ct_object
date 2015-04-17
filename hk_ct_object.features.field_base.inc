@@ -289,42 +289,6 @@ function hk_ct_object_field_default_field_bases() {
     'type_name' => 'wohnung',
   );
 
-  // Exported field_base: 'field_obj_apartments'
-  $field_bases['field_obj_apartments'] = array(
-    'active' => 1,
-    'cardinality' => -1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_obj_apartments',
-    'indexes' => array(
-      'target_id' => array(
-        0 => 'target_id',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'entityreference',
-    'settings' => array(
-      'entity_translation_sync' => FALSE,
-      'handler' => 'base',
-      'handler_settings' => array(
-        'behaviors' => array(
-          'views-select-list' => array(
-            'status' => 0,
-          ),
-        ),
-        'sort' => array(
-          'type' => 'none',
-        ),
-        'target_bundles' => array(
-          'apartment' => 'apartment',
-        ),
-      ),
-      'target_type' => 'node',
-    ),
-    'translatable' => 0,
-    'type' => 'entityreference',
-  );
-
   // Exported field_base: 'field_object_desc_commercial'
   $field_bases['field_object_desc_commercial'] = array(
     'active' => 1,
