@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the hk_ct_object feature.
+ */
+
+include_once 'hk_ct_object.features.inc';
